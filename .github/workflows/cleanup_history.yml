@@ -3,10 +3,6 @@ name: 2. 重复备份文件清理 (去重)
 
 on:
   workflow_dispatch:
-    # 允许手动触发
-  schedule:
-    # 在主工作流 (0分) 运行后 5 分钟运行
-    - cron: '5 */6 * * *' 
 
 jobs:
   cleanup_history:
