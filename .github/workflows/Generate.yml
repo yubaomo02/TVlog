@@ -3,9 +3,6 @@ name: 1. 生成、备份、合并并提交文件
 
 on:
   workflow_dispatch:
-  schedule:
-    # 每天 4 次，例如 UTC 00:00, 06:00, 12:00, 18:00
-    - cron: '0 */6 * * *' 
 
 jobs:
   generate_and_commit:
